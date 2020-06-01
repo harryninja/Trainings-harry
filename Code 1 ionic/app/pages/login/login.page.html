@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title> </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="boxed">
+    <header>
+      <img
+        src="https://doity.com.br/media/doity/eventos/evento-37759-logo_organizador.png"
+      />
+    </header>
+    <form required="true">
+      <ion-input
+        placeholder="EMAIL"
+        class="button2"
+        type="text"
+        name="email"
+        id=""
+      >
+        <ion-icon name="mail" padding class="button10"></ion-icon>
+      </ion-input>
+      <ion-input
+        placeholder="SENHA"
+        type="password"
+        required="true"
+        class="button2"
+        name="pass"
+        id=""
+      >
+        <ion-icon name="lock" padding class="button10"></ion-icon>
+      </ion-input>
+      <ion-col class="col-3">
+        <ion-button
+          class="button3"
+          color="primary"
+          tappable
+          routerLink="/menu/agendar"
+          type="submit"
+          routerDirection="forward"
+          padding
+          >Login</ion-button
+        >
+      </ion-col>
+    </form>
+    <div class="button4"></div>
+    <ion-row>
+      <ion-item
+        lines="none"
+        href="https://servicos.unifg.edu.br/webmail/recuperar-senha.asp"
+        color="light"
+        size="5"
+        padding-bottom
+      >
+        <ion-col>
+          Esqueceu sua senha?
+        </ion-col>
+      </ion-item>
+      <ion-item
+        lines="none"
+        href="https://servicos.unifg.edu.br/webmail/novo-usuario.asp"
+        padding-bottom
+        color="light"
+        size="5"
+      >
+        <ion-col>
+          Cadastre-se
+        </ion-col>
+      </ion-item>
+    </ion-row>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="danger">
+    <ion-title color="light" size="small" class="button6">
+      UNIFG 2020 - Direitos reservados
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

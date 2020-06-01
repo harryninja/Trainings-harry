@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-item
+      lines="none"
+      color="primary"
+      routerLink="/menu/agendar"
+      routerDirection="backward"
+    >
+      <ion-icon name="arrow-back"></ion-icon>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="boxed">
+    <header>
+      <img
+        src="https://doity.com.br/media/doity/eventos/evento-37759-logo_organizador.png"
+      />
+    </header>
+    <div class="beh">
+      <h1>
+        Agendamentos
+      </h1>
+    </div>
+    <ion-item color="light" fill="outline" lines="none">
+      <ion-grid>
+        <ion-row>
+          <ion-label color="primary"><b>Acadêmico</b></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>Data:<b>25/06/2020</b> Hora:<b>12:00</b></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>Senha:<b>AC040</b></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-button (click)="presentToastWithOptions()">Cancelar</ion-button>
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+    <ion-item color="light" fill="outline" lines="none">
+      <ion-grid>
+        <ion-row>
+          <ion-label color="primary"><b>Financeiro</b></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>Data:<b>20/06/2020</b> Hora:<b>10:00</b></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-label>Senha:<b>FI020</b></ion-label>
+        </ion-row>
+        <ion-row>
+          <ion-button color="primary" (click)="presentToastWithOptions()"
+            >Cancelar</ion-button
+          >
+        </ion-row>
+      </ion-grid>
+    </ion-item>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="danger">
+    <ion-title color="light" size="small" class="button3">
+      UNIFG 2020 - Direitos reservados
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>

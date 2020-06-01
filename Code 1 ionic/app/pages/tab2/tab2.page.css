@@ -1,0 +1,68 @@
+.boxed {
+  background-color: #eeeeee;
+  padding-bottom: 125px;
+  position: relative;
+  padding-top: 20px;
+}
+
+.button1 {
+  text-align: center;
+  font-weight: 800;
+}
+
+.button2 {
+  text-align: center;
+}
+
+.col-3 {
+  display: inline-block;
+  text-align: center;
+}
+
+.beh {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+  font-weight: 500;
+}
+
+.button3 {
+  text-align: center;
+}
+
+.button8 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.col-4 {
+  text-align: center;
+  width: 340px;
+  top: 50px;
+}
+
+.col-5 {
+  text-align: center;
+  width: 250px;
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-left: 70px;
+  padding-top: 40px;
+  height: 80px;
+}
+
+.item1 {
+  text-align: center;
+  position: relative;
+  width: 300px;
+  height: 40px;
+}
+/*# sourceMappingURL=tab2.page.css.map */

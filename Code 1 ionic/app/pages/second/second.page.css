@@ -1,0 +1,31 @@
+.boxed {
+  background-color: #eeeeee;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.button1 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.button2 {
+  text-align: center;
+}
+
+.col-3 {
+  display: inline-block;
+  text-align: center;
+}
+
+.beh {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 15px;
+  color: #eeeeee;
+}
+
+.button3 {
+  text-align: center;
+}
+/*# sourceMappingURL=second.page.css.map */
