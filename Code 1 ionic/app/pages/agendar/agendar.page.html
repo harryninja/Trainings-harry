@@ -1,0 +1,73 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title> </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="boxed">
+    <header>
+      <img
+        src="https://doity.com.br/media/doity/eventos/evento-37759-logo_organizador.png"
+      />
+    </header>
+
+    <div class="boxed">
+      <ion-title class="icon2" size="large">Agendar Atendimento</ion-title>
+      <ion-grid>
+        <ion-row class="col-3" padding>
+          <ion-button
+            fill="outline"
+            class="col-3"
+            routerLink="/menu/tab3"
+            routerDirection="forward"
+          >
+            <ion-icon name="school" padding color="medium"></ion-icon>
+            Acadêmico
+          </ion-button>
+        </ion-row>
+        <ion-row class="col-4" padding>
+          <ion-button
+            fill="outline"
+            class="col-3"
+            routerLink="/menu/tab2"
+            routerDirection="forward"
+          >
+            <ion-icon
+              name="logo-usd"
+              size="small"
+              padding
+              color="medium"
+            ></ion-icon>
+            Financeiro
+          </ion-button>
+        </ion-row>
+      </ion-grid>
+      <ion-grid>
+        <ion-row>
+          <ion-title class="icon2" size="large"> Unidade</ion-title>
+        </ion-row>
+      </ion-grid>
+      <div>
+        <ion-radio-group>
+          <ion-item lines="none" color="light">
+            <ion-text class="icon3">Piedade</ion-text>
+            <ion-radio slot="start"></ion-radio>
+          </ion-item>
+          <ion-item lines="none" color="light">
+            <ion-text class="icon3">Boa viagem</ion-text>
+            <ion-radio slot="start"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+      </div>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="danger">
+    <ion-title color="light" size="small" class="button3">
+      UNIFG 2020 - Direitos reservados
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
