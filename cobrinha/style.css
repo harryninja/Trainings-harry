@@ -1,0 +1,9 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95;
+  height: 9vh;
+  flex-direction: column;
+  color: green;
+}
