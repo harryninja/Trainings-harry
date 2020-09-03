@@ -3,6 +3,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import swal from "sweetalert";
 
+//Dados já existentes para simulação
+
 class App extends Component {
   constructor() {
     super();
@@ -42,7 +44,7 @@ class App extends Component {
     this.updateDate = this.updateDate.bind(this);
   }
 
-  //Event Functions
+  //Funções de evento
 
   login() {
     const email = document.getElementById(`email`).value;
@@ -138,8 +140,6 @@ class App extends Component {
     this.state.editedSalary &&
       (this.state.employeeList[edI].salary = this.state.editedSalary);
     this.setState({
-      // employeeList[edI].firstName : this.state.editedFirstName,
-      //I Tried This But It Throws An Error
       editIndex: null,
     });
   }
@@ -183,7 +183,7 @@ class App extends Component {
       editedDate: e.target.value,
     });
   }
-  //JSX Rendering Functions
+  //JSX Funções de renderização
 
   renderHeader() {
     return (
@@ -514,3 +514,5 @@ class App extends Component {
 }
 
 export default App;
+
+//Obrigado :)
