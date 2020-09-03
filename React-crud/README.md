@@ -10,7 +10,6 @@ npm start
 
 Então acessar da maquina local http://localhost:3000
 
-Se preferir pode ver a aplicação no link:
 
 ## Foram usados
 
