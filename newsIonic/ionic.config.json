@@ -1,0 +1,8 @@
+{
+  "name": "Api de noticias",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "1d4bbb9c"
+}
