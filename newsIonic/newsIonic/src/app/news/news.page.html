@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title text-center>Noticias do Brasil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <ion-card *ngFor="let article of data?.articles" (click)="onGoToNewsDetail(article)">
+    <ion-img [src]="article.urlToImage"></ion-img>
+  <ion-card-title text-wrap style="font-size: 1rem; color: #313131">{{article.title}}</ion-card-title>
+  </ion-card>
+</ion-content>

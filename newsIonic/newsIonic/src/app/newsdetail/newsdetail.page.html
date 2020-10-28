@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+		<ion-buttons slot="start">
+			<ion-back-button defaultHref="/tabs/news"></ion-back-button>
+		</ion-buttons>
+    <ion-title>{{article.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding>
+	<ion-card no-padding>
+    <ion-img [src]="article.urlToImage"></ion-img>
+		<ion-card-content no-padding>
+  		<ion-list>
+
+    		<ion-item *ngIf="article.author">
+      		<ion-icon name="create" slot="start"></ion-icon>
+					Autor: {{article.author}}
+				</ion-item>
+
+				<ion-item *ngIf="article.source">
+					<ion-icon name="paper" slot="start"></ion-icon>
+					Fonte: {{article.source.name}}
+				</ion-item>
+
+				<ion-item *ngIf="article.publishedAt">
+					<ion-icon name="calendar" slot="start"></ion-icon>
+					Publicado em: {{article.publishedAt | date}}
+				</ion-item>
+
+  		</ion-list>
+			<hr>
+      <p *ngIf="article.description">{{article.description}}</p>
+			<p *ngIf="article.content">{{article.content}}</p>	
+		</ion-card-content>
+		<ion-footer>
+	
+			<ion-grid>
+				<ion-row>
+					<ion-col col-4>
+						<ion-button
+						ion-button fill="outline"
+						color="secondary"
+						size="small"
+						>
+						<ion-ripple-effect></ion-ripple-effect>
+							Compartilhar
+						</ion-button>
+					</ion-col>
+							
+					<ion-col col-4>
+						<ion-button
+							ion-button fill="outline"
+							color="tertiary"
+							size="small"
+						>
+						<ion-ripple-effect></ion-ripple-effect>
+							Ler mais
+						</ion-button>
+					</ion-col>
+						
+					<ion-col col-4>
+						<ion-button 						
+							ion-button fill="outline"
+							color="success"
+							size="small"
+						>
+						<ion-ripple-effect></ion-ripple-effect>
+							Favoritar
+						</ion-button>
+					</ion-col>
+				</ion-row>
+			</ion-grid>
+		</ion-footer>
+	</ion-card>
+</ion-content>
+
