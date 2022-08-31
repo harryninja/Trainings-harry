@@ -5,7 +5,7 @@
   "homepage": "https://muhammadhoti.github.io/Employee-Management-System-Using-React",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "moment-timezone": "^0.5.21",
+    "moment-timezone": "^0.5.35",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
